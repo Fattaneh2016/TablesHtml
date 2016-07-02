@@ -2,6 +2,7 @@ function init() {
     document.getElementById('showAntique').addEventListener('click', showAntiqueCars);
     document.getElementById('showNonAntique').addEventListener('click',
 showNonAntiqueCars);
+document.getElementById('mybutton').addEventListener('click', fun);
 }
 
 function showAntiqueCars() {
@@ -13,3 +14,10 @@ function showNonAntiqueCars() {
     document.getElementById('antiqueCars').className = "hidden";
     document.getElementById('nonAntiqueCars').className = "visible";
 }
+
+function fun()
+{
+    alert('hi there ');
+}
+
+
